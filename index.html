@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+        <div id="controla-guia">
+            <div>
+                <div id="result"></div>
+            </div>
+        </div>
+        
+        <div>
+            <h1 id="titulo">Pokedex</h1>
+            <div id="card">
+                <img id="pokemon-img" src="./pngwing.com.png" alt="">
+                <div id="area-text">
+                    <div>
+                        <h2 id="nome-pokemon"></h1>
+                        <h3 id="tipo-pokemon"></h2>
+                    </div>
+                        <label for="text-pokemon">
+                            <form autocomplete="off"><input placeholder="Digite o nome do pokemon" id="text-pokemon" type="text" onKeyUp ="mostrarAjuda(this.value)">
+                            </form>
+                            <button id=busca-pokemon>Pesquisar</button>
+                        </label>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

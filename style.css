@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-image: url(Pokémon_\ The\ Movie\ 2000\ Papel\ de\ Parede\ and\ Planos\ de\ Fundo\ _\ 1916x1036.png);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#titulo {
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    margin-right: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border: 10px solid black;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px;
+}
+
+#pokemon-img {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+#area-text {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 198px;
+    background-color: wheat;
+}
+
+#text-pokemon {
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 30px;
+    width: 290px;
+    margin-bottom: 10px;
+}
+
+#busca-pokemon {
+    font-size: 15px;
+    border-radius: 10px;
+    height: 30px;
+    width: 290px;
+    margin-bottom: 10px;
+}
+
+#nome-pokemon {
+    font-size: 25px;
+}
+#tipo-pokemon {
+    font-size: 20px;
+}
+
+#result {
+    font-size: 20px;
+    max-height: 500px;
+    margin-right: 5px;
+    background-color: wheat;
+    border-radius: 20px;
+    width: 200px;
+    overflow-y: scroll;
+}
+#result ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#result ul li {
+    padding: 5px 0;
+}
+#result ul li:hover {
+    background: #eee;
+}
+
+#controla-guia {
+    margin-top: 150px;
+}
